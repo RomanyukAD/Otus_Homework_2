@@ -1,4 +1,4 @@
-package Cucumber;
+package cucumber;
 
 import io.cucumber.java.After;
 import io.cucumber.java.ru.Допустим;
@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.concurrent.TimeUnit;
 
-import static Cucumber.WebDriverFactory.setupDriver;
+import static cucumber.WebDriverFactory.setupDriver;
 
 public class MyStepFeachersOneAndTwo {
 

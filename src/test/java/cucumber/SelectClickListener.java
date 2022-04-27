@@ -1,4 +1,4 @@
-package Cucumber;
+package cucumber;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.events.WebDriverEventListener;
