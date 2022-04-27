@@ -20,7 +20,7 @@ public class WebDriverFactory {
                 WebDriverManager.operadriver().setup();
                 return new OperaDriver();
             default:
-                throw new WebDriverException("тип драйвера не верный");
+                throw new WebDriverException("failed drivers type");
         }
     }
 }
